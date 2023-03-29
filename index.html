@@ -11,42 +11,68 @@
 </head>
 
 <body class="">
-
-  <nav class="navbar  fixed-top navbar-expand-lg mt-5 ">
-    <div class="container-fluid">
-      <a class="navbar-brand mx-5 " href="#"><img src="assets/shared/logo.svg" alt=""></a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
-        aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-        <div class="offcanvas-header">
-          <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
-          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-        </div>
-        <div class="offcanvas-body">
-
-          <ul class="navbar-nav  justify-content-around flex-grow-1 pe-3  py-5  nav_container">
-            <li class="nav-item ">
-              <a class="nav-link active text-light " aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item ">
-              <a class="nav-link text-light" href="#">Destination</a>
-            </li>
-            <li class="nav-item ">
-              <a class="nav-link text-light" href="#">Crew</a>
-            </li>
-            <li class="nav-item ">
-              <a class="nav-link text-light" href="#">Technology</a>
-            </li>
+  <div class="header">
 
 
-          </ul>
+    <nav class="navbar  fixed-top navbar-expand-lg mt-5 ">
+      <div class="container-fluid p-0">
+        <a class="navbar-brand mx-5 " href="#"><img src="assets/shared/logo.svg" alt=""></a>
+        <!-- <div class="bg-white border line">sdds</div> -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end p-0 " tabindex="-1" id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
 
+          <div class="offcanvas-body">
+
+            <ul class="navbar-nav  justify-content-around flex-grow-1  p-0  nav_container">
+              <li class="nav-item  nav_item  py-5 px-4 active">
+                <a class="nav-link text-light  " aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item nav_item  py-5 px-4">
+                <a class="nav-link text-light" href="#">Destination</a>
+              </li>
+              <li class="nav-item nav_item  py-5 px-4">
+                <a class="nav-link text-light" href="#">Crew</a>
+              </li>
+              <li class="nav-item nav_item  py-5 px-4 ">
+                <a class="nav-link text-light" href="#">Technology</a>
+              </li>
+
+
+            </ul>
+            <div class="bg-white border line"></div>
+
+          </div>
         </div>
       </div>
+    </nav>
+
+  </div>
+
+  <main>
+    <div class="row main_content mx-0">
+      <section class="col-6 main_content_text_section">
+        <h1 class="main_content_title ">SPACE</h1>
+        <p class="main_content_text">Let’s face it; if you want to go to space, you might as well genuinely go to
+          outer space and not hover kind of on the edge of it. Well sit back, and relax
+          because we’ll give you a truly out of this world experience!</p>
+      </section>
+      <section class="col-6  d-flex align-items-center justify-content-center">
+        <div class="explore d-flex align-items-center justify-content-center border-0"> <a href="#"
+            class="explore_link">EXPLORE</a>
+        </div>
+      </section>
     </div>
-  </nav>
+
+  </main>
+
 
 
 
